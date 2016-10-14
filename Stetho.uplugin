@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Stetho",
+	"Description": "This plugin serves to interface with the Facebook Stetho Android debug bridge",
+	"Category": "Android",
+	"CreatedBy": "Get Set Games Inc.",
+	"CreatedByURL": "http://getsetgames.com",
+	"DocsURL": "https://github.com/getsetgames/Stetho",
+	"MarketplaceURL": "",
+	"Modules": [
+		{
+			"Name": "Stetho",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false
+}
