@@ -12,6 +12,17 @@
 
 	</androidManifestUpdates> 
 
+  	<AARImports>
+  		<insertValue value="repositories $S(PluginDir)/../../Source/ThirdParty/AndroidRepository"/>
+		<insertNewline/>
+
+		<insert>
+com.facebook,stetho,1.4.1
+com.squareup,okhttp3,3.4.2
+		</insert>
+	
+  	</AARImports>
+
 	<!-- optional additions to proguard -->
 	<proguardAdditions>
 		<insert>
