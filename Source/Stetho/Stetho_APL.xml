@@ -47,6 +47,11 @@ import com.facebook.stetho.okhttp3.StethoInterceptor;
 	
 	<!-- optional additions to GameActivity onCreate in GameActivity.java -->
 	<gameActivityOnCreateAdditions>
+		<insert>
+Stetho.initializeWithDefaults(this);
+
+OkHttpClient httpClient = new OkHttpClient.Builder().addNetworkInterceptor(new StethoInterceptor()).build();
+		</insert>
 	</gameActivityOnCreateAdditions>
 
 	<!-- optional additions to GameActivity onDestroy in GameActivity.java -->
