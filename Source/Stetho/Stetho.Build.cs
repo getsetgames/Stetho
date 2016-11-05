@@ -10,11 +10,6 @@ namespace UnrealBuildTool.Rules
 {
 	public class Stetho : ModuleRules
 	{
-		private string ModulePath
-		{
-			get { return Path.GetDirectoryName( RulesCompiler.GetModuleFilename( this.GetType().Name ) ); }
-		}
-
 		public Stetho(TargetInfo Target)
 		{
 			PublicIncludePaths.AddRange(
