@@ -27,7 +27,8 @@
 	<!-- optional additions to the GameActivity imports in GameActivity.java -->
 	<gameActivityImportAdditions>
 		<insert>
-
+import com.facebook.stetho.Stetho;
+import com.facebook.stetho.okhttp3.StethoInterceptor;
 		</insert>
 	</gameActivityImportAdditions>
 	
