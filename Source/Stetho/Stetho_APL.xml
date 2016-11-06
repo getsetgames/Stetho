@@ -18,7 +18,7 @@
 
 		<insert>
 com.facebook,stetho,1.4.1
-com.squareup,okhttp3,3.4.2
+com.facebook,stetho-okhttp3,1.4.1
 		</insert>
 	
   	</AARImports>
