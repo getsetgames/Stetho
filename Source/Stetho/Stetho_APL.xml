@@ -29,6 +29,11 @@ com.facebook,stetho-okhttp3,1.4.1
 
 		</insert>
 	</proguardAdditions>
+
+	<prebuildCopies>
+ 		<copyDir src="$S(EngineDir)/Plugins/GSG/Stetho/lib/Android/libs" dst="$S(BuildDir)/libs" /> 
+	</prebuildCopies>
+
 	
 	<!-- optional files or directories to copy to Intermediate/Android/APK -->
  	<resourceCopies>
