@@ -45,6 +45,7 @@ com.facebook,stetho-okhttp3,1.4.1
 		<insert>
 import com.facebook.stetho.Stetho;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
+import okhttp3.OkHttpClient;
 		</insert>
 	</gameActivityImportAdditions>
 	
